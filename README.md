@@ -33,17 +33,6 @@
     * [Xftp的使用](#xftp的使用)
       * [打开Xftp](#打开xftp)
       * [确认连接信息](#确认连接信息)
-  * [2.7.Xshell和Xftp](#27xshell和xftp)
-    * [Linux系统的远程连接](#linux系统的远程连接-1)
-    * [连接前的准备](#连接前的准备-1)
-      * [确认网络连接](#确认网络连接-1)
-      * [安装软件](#安装软件-1)
-    * [Xshell的使用](#xshell的使用-1)
-      * [新建连接](#新建连接-1)
-      * [连接](#连接-1)
-    * [Xftp的使用](#xftp的使用-1)
-      * [打开Xftp](#打开xftp-1)
-      * [确认连接信息](#确认连接信息-1)
 * [3.Linux常用指令](#3linux常用指令)
   * [3.1.背景知识](#31背景知识)
     * [Linux系统中一切皆文件](#linux系统中一切皆文件)
@@ -657,81 +646,6 @@ Insyde BIOS机型
 ![images](./assets/img095.png)
 
 ![images](./assets/img096.png)
-
-## 2.7.Xshell和Xftp
-
-### Linux系统的远程连接
-
-对我们来说，Linux系统是当服务器来用的。而正式的服务器都需要通过网络远程访问。Linux系统运行了专门的进程基于SSH协议来接受客户端的远程连接。SSH客户端也很多，我们使用的是Xshell和Xftp。其中Xshell用来远程运行Linux命令，Xftp用来向Linux上传文件。
-
-![images](./assets/img084-1662448555753-175.png)
-
-### 连接前的准备
-
-#### 确认网络连接
-
-在Windows这边通过ping命令确认从Windows到Linux网络是否连通。
-
-> C:\Users\Administrator>ping 192.168.198.100
->
-> 正在 Ping 192.168.198.100 具有 32 字节的数据:
-> 来自 192.168.198.100 的回复: 字节=32 时间<1ms TTL=64
-> 来自 192.168.198.100 的回复: 字节=32 时间=1ms TTL=64
-> 来自 192.168.198.100 的回复: 字节=32 时间=1ms TTL=64
-> 来自 192.168.198.100 的回复: 字节=32 时间=2ms TTL=64
->
-> 192.168.198.100 的 Ping 统计信息:
->  数据包: 已发送 = 4，已接收 = 4，丢失 = 0 (0% 丢失)，
-> 往返行程的估计时间(以毫秒为单位):
->  最短 = 0ms，最长 = 2ms，平均 = 1ms
-
-#### 安装软件
-
-安装Xshell和Xftp这两个软件，可能会需要升级Windows系统的.NET组件或Windows Visual Studio等。
-
-### Xshell的使用
-
-#### 新建连接
-
-![images](./assets/img085-1662448555753-176.png)
-
-![images](./assets/img086-1662448555753-177.png)
-
-#### 连接
-
-![images](./assets/img087-1662448555753-178.png)
-
-![images](./assets/img088-1662448555755-180.png)
-
-![images](./assets/img089-1662448555754-179.png)
-
-
-
-![images](./assets/img090-1662448555755-182.png)
-
-点这里调整字体：
-
-![images](./assets/img091-1662448555755-181.png)
-
-下面这样就可以输入Linux命令了：
-
-![images](./assets/img092-1662448555755-183.png)
-
-### Xftp的使用
-
-#### 打开Xftp
-
-由于使用Xshell的频率远高于Xftp，所以最方便的办法从Xshell里打开Xftp。
-
-![images](./assets/img093-1662448555755-186.png)
-
-#### 确认连接信息
-
-![images](./assets/img094-1662448555755-184.png)
-
-![images](./assets/img095-1662448555755-185.png)
-
-![images](./assets/img096-1662448555755-187.png)
 
 # 3.Linux常用指令
 
